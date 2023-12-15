@@ -1,0 +1,3 @@
+service_install_run_data_source_connection: "jdbc:postgresql://192.168.222.180:5432/{{ env }}"
+service_install_run_data_source_connection_user: "jarry"
+service_install_run_data_source_connection_password: "jihed"

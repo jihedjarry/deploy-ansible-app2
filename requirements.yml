@@ -1,0 +1,16 @@
+- src: https://github.com/jihedjarry/docker.git
+  name: docker
+  version: master
+  scm: git
+
+
+- src: https://github.com/jihedjarry/postgres.git
+  name: postgres 
+  version: master
+  scm: git
+
+- src: https://github.com/jihedjarry/service-install-run.git
+  name: service-install-run
+  version: master
+  scm: git
+
