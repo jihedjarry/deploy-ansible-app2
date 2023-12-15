@@ -5,7 +5,7 @@
   - postgres
 
 - name: installation docker et run applicatif
-  hosts: dev
+  hosts: app
   become: yes
   roles:
   - docker 
