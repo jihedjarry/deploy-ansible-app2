@@ -1,0 +1,8 @@
+all:
+  children:
+    app:
+      hosts:
+        192.168.222.130:
+    pg:
+      hosts:
+        192.168.222.180:
