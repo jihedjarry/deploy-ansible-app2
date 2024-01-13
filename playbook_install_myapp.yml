@@ -1,11 +1,5 @@
-- name: installation postgres
-  hosts: pg
-  become: yes
-  roles:
-  - postgres
-
 - name: installation docker et run applicatif
-  hosts: app
+  hosts: dev
   become: yes
   roles:
   - docker 
